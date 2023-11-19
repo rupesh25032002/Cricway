@@ -1,0 +1,52 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+    z-index: 1;
+}
+#navbar{
+  position: fixed;
+  top: 0px;
+}
+.navbox{
+  border: 2px solid pink;
+}
+ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand{
+  padding-left: 20px;
+}
+.brand img{
+  margin-right: 10px;
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.navbar-brand span{
+  color: blue;
+}
+.navbar-brand img{
+  border-radius: 25px;
+}
+.listbox{
+  /* width: 80px; */
+}
+.listbox link{
+  text-align: center;
+  color: black;
+}
+ .navbar-toggler:focus,.navbar-toggler:active,.navbar-toggler-icon:focus{
+  outline: none;
+  box-shadow: none;
+} 
+#toggle-button:focus,#toggle-button:active{
+  box-shadow: none;
+  outline: none;
+}
+
+.activeclass{
+  border: 2px solid black;
+}

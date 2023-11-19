@@ -1,0 +1,69 @@
+/* lading css */
+.loadingbox{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsbox{
+      overflow: hidden;
+      background-color: #060505;
+  
+}
+.newsbox2{
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#newsbox{
+  margin-top: 100px;
+}
+.newscard{
+  margin-bottom: 20px;
+  background-color: #cec4c4 !important;
+  width: 23em !important;
+}
+.newscard:hover{
+  background-color: #a8a3a3 !important;
+  cursor: pointer;
+}
+
+.newscard img{
+  margin-top: 10px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-body a{
+  margin-top: auto;
+}
+
+/* PAgination page css */
+.paginationbox{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    color: white;
+}
+.pagination-number{
+  margin: 0px 50px;
+}
+
+/* media query */
+@media (max-width:1200px) and (min-width:992px) {
+  .newscard{
+    width: 27em !important;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width:992px){
+  .newscard{
+    width: 90vw !important;
+  }
+}

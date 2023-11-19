@@ -1,0 +1,29 @@
+.about_container{
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+.whyusbox{
+  border: 2px solid black;
+}
+.btnn{
+  background-color: blue;
+  color: white;
+}
+.box{
+  /* border:2px solid black; */
+  margin: 5px 0px 5px 0px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #e7e7e7;
+}
+
+@media (max-width:768px){
+  .box{
+    margin: 10px 0px;
+  }
+}
+@media (max-width:576px){
+  .about_container{
+    width: 90vw !important;
+  }
+}

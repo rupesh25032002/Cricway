@@ -1,0 +1,130 @@
+.browseplayer{
+  background-color: black;
+  color:white;
+  overflow: hidden;
+}
+.searchform{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.searchbox{
+  width: 50%;
+    margin: 10px 10px;
+    height: 40px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.searchbox input{
+  height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-indent: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.searchicon{
+ font-size: 25px;
+ margin-left: 10px;
+}
+.searchicon:hover{
+  cursor: pointer;
+}
+
+/* Player.js css */
+.personalinfobox{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.playerstatbox{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.startinfo{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgbox{
+  width: 200px;
+  border: 2px solid;
+  border-radius: 50%;
+    overflow: hidden
+}
+
+.playername{
+  font-size: 1.5rem;
+}
+
+.table1{
+  width: 100%;
+  /* border: 2px solid; */
+}
+.table1 tr{
+  border-bottom: 2px solid;
+  height: 40px;
+}
+.startrow{
+  border-top: 2px solid;
+}
+.table2 th,.table2 td {
+  padding: 10px 25px 10px 25px;
+}
+
+.table2 th:first-child,.table2 td:first-child{
+  padding-left: 0px;
+}
+.table2 th:last-child,.table2 td:last-child{
+  padding-right: 0px;
+}
+
+.table2 tr:first-child{
+  border-bottom: 2px solid;
+}
+
+
+/* not found component */
+.notfound{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* media query */
+@media (max-width:768px){
+  .searchbox{
+    width: 70%;
+  }
+  .playerstatbox{
+    font-size: 15px;
+  }
+  .table2{
+    display: block;
+    overflow-x: auto;
+  }
+}
+@media (max-width:576px){
+  .searchbox{
+    width: 70%;
+  }
+  .playerstatbox{
+    font-size: 13px;
+  }
+  .imgbox{
+    width: 150px;
+  }
+}
+/* padding: 10px 5px 10px 5px; */

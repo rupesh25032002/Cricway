@@ -1,0 +1,56 @@
+
+
+.home_container{
+  background:url("/public/images/homepageimg.jpg");
+  height:100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:top;
+}
+.home_container::before{
+  background-color: rgba(0,0,0,0.7);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.homehead{
+  overflow: hidden;
+}
+
+.homehead h1{
+  color: whitesmoke;
+  font-size: 4em;
+  position: relative;
+  font-family:'Poppins', sans-serif ;
+  font-weight: bold;
+  bottom: 75px;
+  animation: welcomeanim 4s ease forwards;
+  text-align: center;
+}
+@keyframes welcomeanim{
+  0%{
+    bottom: 75px;
+  }
+  100%{
+    bottom:0px;
+  }
+}
+
+.homehead h1 span{
+  color: blue;
+}
+
+@media (max-width:576px){
+  .homehead h1{
+    font-size: 3em;
+  }
+}
+@media (max-width:400px){
+  .homehead h1{
+    font-size: 2em;
+  }
+}

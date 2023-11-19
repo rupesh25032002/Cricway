@@ -1,0 +1,22 @@
+.footer{
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(31, 29, 29);
+}
+
+.socialmedialogobox{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  font-size: 25px;
+  margin: 5px 10px 5px 10px;
+  color: white;
+}
+
+.logo:hover{
+  color: blue;
+  cursor: pointer;
+}
